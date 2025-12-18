@@ -16,7 +16,7 @@ OUTPUT_FILE = "Result/predicted_groups.csv"
 
 openai.api_key = os.getenv(
     "OPENAI_API_KEY",
-    "your_key"
+    "YOUR_OPEN_API_KEY_HERE"
 )
 
 
