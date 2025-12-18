@@ -13,7 +13,7 @@ from model_training import MODEL_DIR
 
 openai.api_key = os.getenv(
     "OPENAI_API_KEY",
-    "your_key_here"  # Replace or use env variable
+    "YOUR_OPEN_API_KEY"  # Replace or use env variable
 
 
 )
