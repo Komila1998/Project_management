@@ -1,0 +1,11 @@
+gpa,skills,interest_area,experience_level,personality_type,availability_hours,communication_score,leadership_score,proposed_topic,topic_description,domain_interest
+3.55,"Python, ML, AI",AI & Data,Intermediate,Extrovert,16,4,3,AI-Driven Campus Helper Chatbot,Develops an AI chatbot that assists SLIIT students with navigation and FAQ support.,AI & NLP
+3.25,"Flutter, Firebase, UX Design",Mobile Apps,Intermediate,Introvert,14,3,3,Smart Event Management App,An app for managing SLIIT events and student registrations.,Mobile Development
+3.8,"React, Node.js, MongoDB",Full Stack,Advanced,Extrovert,18,5,4,Research Collaboration Platform,A web app for connecting students with similar research interests.,Web Application
+3.14,"Unity, C#, 3D Modeling",Game Development,Beginner,Neutral,11,3,2,AR/VR Chatbot Assistant,Engineers a secure ar/vr solution with focus on data privacy and integrity.,AR/VR
+3.28,"Unity, C#, 3D Modeling",Game Development,Intermediate,Extrovert,14,3,4,Real-time Blockchain Monitor,Builds a comprehensive blockchain platform with user-friendly interface and advanced features.,Blockchain
+3.67,"Azure, Terraform, CI/CD",Cloud Computing,Advanced,Introvert,14,3,2,Image Classification Analytics Platform,Constructs a robust computer vision framework for scalable and efficient performance.,Computer Vision
+2.81,"MQTT, Cloud IoT",IoT & Hardware,Intermediate,Introvert,10,4,5,Chatbot Detection System,Constructs a robust nlp framework for scalable and efficient performance.,NLP
+3.55,"Network Security, Ethical Hacking",Cybersecurity,Beginner,Ambivert,10,3,2,Text Summarization Analytics Platform,Creates an innovative nlp application with modern technologies and best practices.,NLP
+3.79,"Java, Spring Boot, MySQL",DevOps,Intermediate,Introvert,16,2,5,Gesture Recognition Detection System,Prototypes a cutting-edge computer vision application using emerging technologies.,Computer Vision
+3.65,"Python, Data Visualization, Tableau",AI & Data,Beginner,Introvert,21,3,3,Intelligent Web Solution,Constructs a robust web development framework for scalable and efficient performance.,Web Development
