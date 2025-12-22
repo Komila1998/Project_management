@@ -47,12 +47,12 @@ def load_trained_model():
     scaler_path = os.path.join(MODEL_DIR, "scaler.pkl")
     tfidf_path = os.path.join(MODEL_DIR, "tfidf_vectorizer.pkl")
     
-    if not os.path.exists(model_path):
-        raise FileNotFoundError(f"Model not found at {model_path}. Please train the model first.")
-    if not os.path.exists(scaler_path):
-        raise FileNotFoundError(f"Scaler not found at {scaler_path}. Please train the model first.")
-    if not os.path.exists(tfidf_path):
-        raise FileNotFoundError(f"TF-IDF vectorizer not found at {tfidf_path}. Please train the model first.")
+    if missing:
+    print("WARNING: Missing files:")
+    for p in missing:
+        print(" -", p)
+    print("Training not found. Skipping load...")
+    # return / exit / or trigger training here
     
     # Load model, scaler, and TF-IDF vectorizer
     model = joblib.load(model_path)
