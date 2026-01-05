@@ -11,12 +11,7 @@ from data_preparation import PROCESSED_FILE
 from model_training import MODEL_DIR               
 
 
-openai.api_key = os.getenv(
-    "OPENAI_API_KEY",
-    "YOUR_OPEN_API_KEY"  # Replace or use env variable
 
-
-)
 
 print(colored("Loading trained models...", "cyan"))
 tfidf = joblib.load(os.path.join(MODEL_DIR, "tfidf_vectorizer.pkl"))
