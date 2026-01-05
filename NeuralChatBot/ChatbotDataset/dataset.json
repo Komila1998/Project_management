@@ -1,0 +1,440 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello Professor", "Good morning sir", "Hi supervisor", "Hey mentor",
+        "Greetings Dr.", "Hello sir/madam", "Hi there supervisor", "Hello guide",
+        "Good afternoon professor", "Hello teacher", "Hi academic advisor",
+        "Hello project supervisor", "Hey guide", "Hello sir", "Hi ma'am",
+        "Good evening professor", "Hello mentor", "Hey academic guide",
+        "Hello project guide", "Hi supervisor sir", "Hello ma'am"
+      ],
+      "responses": [
+        "Hello! I'm here to guide you through your project. What would you like to discuss today?",
+        "Welcome! How can I assist you with your academic project today?",
+        "Greetings! Ready to work on your project? Tell me what you need help with."
+      ]
+    },
+
+    {
+      "tag": "farewell",
+      "patterns": [
+        "Thank you professor", "Thanks for guidance", "Goodbye sir", "See you later",
+        "Thanks for your time", "Appreciate your help professor", "Bye for now",
+        "Thank you for the advice", "I'll implement your suggestions", "See you next meeting",
+        "Thanks mentor", "Goodbye and thank you", "Thanks for the feedback",
+        "I appreciate your guidance", "Thank you supervisor", "See you tomorrow",
+        "Thanks for the supervision", "Good night professor", "Talk to you later",
+        "Thanks for the review", "Bye professor", "Thank you for your patience"
+      ],
+      "responses": [
+        "You're welcome! Keep up the good work and don't hesitate to reach out if you need more guidance.",
+        "Glad I could help! Remember to document your progress and we'll review it next time.",
+        "Happy to assist! Make sure to follow the project timeline and update me on your progress."
+      ]
+    },
+
+    {
+      "tag": "project_topic_selection",
+      "patterns": [
+        "How to choose project topic", "Topic selection guidance", "I need help selecting topic",
+        "What project should I do", "Topic recommendation please", "Final year project ideas",
+        "Which topic is suitable", "Topic selection criteria", "Help me choose project domain",
+        "Suggest a good project topic", "What makes a good project", "Research topic selection",
+        "Project topic validation", "Is my topic good enough", "Topic feasibility check",
+        "Topic originality check", "Innovative project ideas", "Industry relevant topics",
+        "Academic project topics", "Research gap identification"
+      ],
+      "responses": [
+        "For topic selection: 1) Choose something you're passionate about 2) Ensure technical feasibility 3) Check available resources 4) Consider innovation potential 5) Validate with recent research",
+        "Good project topics should: Solve a real problem, demonstrate technical skills, have clear scope, and allow for measurable outcomes. Let's discuss your options."
+      ]
+    },
+
+    {
+      "tag": "literature_review",
+      "patterns": [
+        "How to do literature review", "Literature review guidance", "Research papers search",
+        "Finding related work", "Review writing tips", "Citation management",
+        "Research gap analysis", "Literature survey methods", "Academic paper reading",
+        "Review structure help", "Sources for literature", "IEEE papers search",
+        "Google scholar usage", "Literature organization", "Review chapter writing",
+        "Related work analysis", "Literature review tools", "Academic databases",
+        "Research methodology", "Literature synthesis"
+      ],
+      "responses": [
+        "Literature review steps: 1) Identify keywords 2) Search academic databases 3) Organize papers 4) Analyze patterns 5) Identify gaps 6) Write structured review",
+        "For effective review: Use Mendeley/Zotero for citations, create summaries of each paper, group by themes, critically analyze methods, and identify research opportunities."
+      ]
+    },
+
+    {
+      "tag": "project_proposal",
+      "patterns": [
+        "Project proposal writing", "Proposal format guidance", "Objectives formulation",
+        "Problem statement writing", "Scope definition", "Methodology section",
+        "Timeline creation", "Resource planning", "Budget estimation",
+        "Proposal submission", "Proposal defense", "Evaluation criteria",
+        "Abstract writing", "Introduction chapter", "Expected outcomes",
+        "Significance section", "Limitations writing", "Ethical considerations"
+      ],
+      "responses": [
+        "Project proposal structure: 1) Title 2) Abstract 3) Introduction 4) Problem Statement 5) Objectives 6) Methodology 7) Timeline 8) Resources 9) References",
+        "For strong proposals: Clear problem definition, specific objectives, detailed methodology, realistic timeline, and clear expected outcomes. Let's review your draft."
+      ]
+    },
+
+    {
+      "tag": "system_design",
+      "patterns": [
+        "System architecture help", "Design diagram creation", "UML diagrams",
+        "ER diagram creation", "Flowchart design", "System components",
+        "Database design", "Interface design", "Module breakdown",
+        "Architecture patterns", "Design decisions", "Technical specifications",
+        "System requirements", "Component interaction", "Data flow diagrams",
+        "Class diagrams", "Sequence diagrams", "Deployment architecture"
+      ],
+      "responses": [
+        "System design process: 1) Requirements analysis 2) High-level design 3) Component design 4) Interface design 5) Database design 6) Review.",
+        "Use UML for clarity: Class diagrams for structure, sequence diagrams for interaction, ER diagrams for database, deployment diagrams for infrastructure."
+      ]
+    },
+
+    {
+      "tag": "implementation_help",
+      "patterns": [
+        "Coding assistance needed", "Implementation problems", "Algorithm implementation",
+        "Function writing help", "Code structure guidance", "Programming issues",
+        "Debugging help professor", "Code optimization", "Module implementation",
+        "Integration problems", "API implementation", "Database connection",
+        "Frontend development", "Backend coding", "Testing during implementation",
+        "Version control during coding", "Code documentation", "Coding standards"
+      ],
+      "responses": [
+        "Implementation guidance: 1) Break into small modules 2) Test each module 3) Document code 4) Use version control 5) Follow coding standards.",
+        "For smooth implementation: Write pseudocode first, create test cases, implement incrementally, review code regularly, and maintain documentation."
+      ]
+    },
+
+    {
+      "tag": "testing_guidance",
+      "patterns": [
+        "Testing methodology", "Test case creation", "Unit testing help",
+        "Integration testing", "System testing", "Test data preparation",
+        "Bug reporting", "Testing tools", "Test automation",
+        "Performance testing", "Security testing", "User acceptance testing",
+        "Test documentation", "Testing strategies", "Quality assurance",
+        "Test coverage", "Regression testing", "Test environment setup"
+      ],
+      "responses": [
+        "Testing approach: 1) Unit tests for functions 2) Integration tests for modules 3) System tests for complete system 4) Acceptance tests for requirements.",
+        "Testing best practices: Create test cases early, automate where possible, test edge cases, maintain test documentation, and track bugs systematically."
+      ]
+    },
+
+    {
+      "tag": "documentation_help",
+      "patterns": [
+        "Project report writing", "Documentation structure", "Chapter writing",
+        "Formatting guidance", "Abstract writing", "Conclusion chapter",
+        "References formatting", "Appendix creation", "Plagiarism avoidance",
+        "Report submission", "Academic writing", "Technical writing",
+        "Figures and tables", "Literature citation", "Proofreading help",
+        "Report template", "Documentation standards", "User manual writing"
+      ],
+      "responses": [
+        "Project report structure: 1) Title 2) Abstract 3) Introduction 4) Literature 5) Methodology 6) Implementation 7) Testing 8) Results 9) Conclusion 10) References.",
+        "For quality documentation: Write clearly, include diagrams, cite properly, proofread carefully, and follow your institution's formatting guidelines."
+      ]
+    },
+
+    {
+      "tag": "presentation_prep",
+      "patterns": [
+        "Presentation preparation", "Slide creation help", "Presentation content",
+        "Defense preparation", "Demo preparation", "Presentation timing",
+        "Q&A preparation", "Presentation skills", "Slide design",
+        "Demo script writing", "Rehearsal tips", "Presentation structure",
+        "Visual aids creation", "Confidence building", "Technical presentation",
+        "Project demonstration", "Poster presentation", "Oral defense"
+      ],
+      "responses": [
+        "Presentation tips: 1) Start with problem statement 2) Show objectives 3) Present methodology 4) Demo results 5) Conclude with findings 6) Prepare for Q&A.",
+        "For effective defense: Practice timing, anticipate questions, prepare backup slides, create clear demo, and rehearse with peers."
+      ]
+    },
+
+    {
+      "tag": "timeline_management",
+      "patterns": [
+        "Project timeline help", "Deadline management", "Milestone setting",
+        "Progress tracking", "Time management", "Schedule creation",
+        "Gantt chart help", "Task breakdown", "Priority setting",
+        "Extension request", "Time allocation", "Workload management",
+        "Meeting schedule", "Review sessions", "Submission planning",
+        "Phase completion", "Buffer time", "Project pacing"
+      ],
+      "responses": [
+        "Timeline management: Create Gantt chart, set weekly milestones, allocate buffer time, review progress bi-weekly, and adjust as needed. Share your current timeline.",
+        "For project scheduling: Break into phases, estimate realistically, include review periods, plan for contingencies, and communicate delays early."
+      ]
+    },
+
+    {
+      "tag": "research_methodology",
+      "patterns": [
+        "Research methods help", "Methodology selection", "Experimental design",
+        "Data collection methods", "Survey design", "Interview protocols",
+        "Case study design", "Quantitative methods", "Qualitative methods",
+        "Mixed methods", "Sampling techniques", "Data analysis methods",
+        "Research instruments", "Validity and reliability", "Ethical approval",
+        "Research design", "Methodology chapter", "Research framework"
+      ],
+      "responses": [
+        "Methodology selection depends on: Research questions, data type, resources, and objectives. Quantitative for measurement, qualitative for understanding, mixed for both.",
+        "Methodology should include: Research design, population/sample, data collection, data analysis, and ethical considerations. Let's design yours step by step."
+      ]
+    },
+
+    {
+      "tag": "results_analysis",
+      "patterns": [
+        "Results interpretation", "Data analysis help", "Statistical analysis",
+        "Graphs and charts", "Results presentation", "Finding discussion",
+        "Comparative analysis", "Performance metrics", "Evaluation results",
+        "Statistical tests", "Data visualization", "Trend analysis",
+        "Hypothesis testing", "Result validation", "Analysis tools",
+        "Interpretation guidance", "Significance analysis", "Pattern recognition"
+      ],
+      "responses": [
+        "Results analysis: 1) Clean and organize data 2) Choose appropriate analysis 3) Visualize findings 4) Interpret results 5) Compare with objectives. ",
+        "For meaningful results: Use appropriate statistical tests, create clear visualizations, interpret in context of research questions, and discuss limitations."
+      ]
+    },
+
+    {
+      "tag": "problem_solving",
+      "patterns": [
+        "Stuck with problem", "Technical challenge", "Problem solving approach",
+        "Issue resolution", "Troubleshooting help", "Solution design",
+        "Critical thinking", "Analytical approach", "Problem decomposition",
+        "Alternative solutions", "Decision making", "Root cause analysis",
+        "Workaround needed", "Problem statement", "Solution evaluation",
+        "Creative thinking", "Technical obstacle", "Implementation barrier"
+      ],
+      "responses": [
+        "Problem-solving steps: 1) Understand the problem 2) Break it down 3) Research solutions 4) Try alternatives 5) Test and refine. ",
+        "When stuck: Take a break, discuss with peers, research similar solutions, try different approaches, and don't hesitate to ask for help."
+      ]
+    },
+
+    {
+      "tag": "group_project",
+      "patterns": [
+        "Group work issues", "Team coordination", "Task distribution",
+        "Team meetings", "Collaboration tools", "Conflict resolution",
+        "Group dynamics", "Peer evaluation", "Team communication",
+        "Shared responsibilities", "Group deadlines", "Team productivity",
+        "Member contribution", "Leadership issues", "Team motivation",
+        "Group presentation", "Collaborative coding", "Document sharing"
+      ],
+      "responses": [
+        "Group project success: 1) Clear roles and responsibilities 2) Regular meetings 3) Shared documentation 4) Conflict resolution protocol 5) Peer reviews.",
+        "For effective teamwork: Use project management tools, establish communication channels, set ground rules, track individual contributions, and celebrate milestones together."
+      ]
+    },
+
+    {
+      "tag": "resource_management",
+      "patterns": [
+        "Resource allocation", "Tool selection", "Software needed",
+        "Hardware requirements", "Budget planning", "Resource optimization",
+        "Open source tools", "Cloud resources", "Lab equipment",
+        "Dataset access", "Licensing issues", "Resource constraints",
+        "Alternative resources", "Cost management", "Resource sharing",
+        "Infrastructure setup", "Tool training", "Resource documentation"
+      ],
+      "responses": [
+        "Resource planning: 1) List required resources 2) Identify available options 3) Consider costs 4) Plan acquisition 5) Schedule usage.",
+        "For resource management: Explore open-source alternatives, share resources with peers, prioritize essential items, and plan for contingencies."
+      ]
+    },
+
+    {
+      "tag": "academic_writing",
+      "patterns": [
+        "Academic writing style", "Formal writing help", "Paper structure",
+        "Paragraph development", "Thesis statement", "Argument building",
+        "Evidence incorporation", "Academic tone", "Writing clarity",
+        "Cohesion and coherence", "Transition sentences", "Academic vocabulary",
+        "Writing feedback", "Draft revision", "Editing help",
+        "Writing improvement", "Academic conventions", "Writing workshop"
+      ],
+      "responses": [
+        "Academic writing principles: Clear thesis, logical structure, evidence-based arguments, formal tone, proper citations, and critical analysis.",
+        "For better writing: Outline first, write drafts, revise multiple times, seek peer review, use writing tools, and study model papers."
+      ]
+    },
+
+    {
+      "tag": "ethics_compliance",
+      "patterns": [
+        "Ethical considerations", "Research ethics", "Plagiarism avoidance",
+        "Copyright issues", "Data privacy", "Informed consent",
+        "Ethical approval", "Academic integrity", "Citation ethics",
+        "Data handling ethics", "Participant rights", "Ethical guidelines",
+        "Confidentiality", "Transparency", "Responsible research",
+        "Ethical dilemmas", "Compliance requirements", "Ethics committee"
+      ],
+      "responses": [
+        "Research ethics essentials: Protect participants, ensure privacy, obtain consent, avoid plagiarism, acknowledge sources, and maintain integrity.",
+        "Ethical compliance: Follow institutional guidelines, document ethical considerations, protect sensitive data, and be transparent about limitations."
+      ]
+    },
+
+    {
+      "tag": "career_advice",
+      "patterns": [
+        "Career guidance", "Job preparation", "Resume for projects",
+        "Portfolio building", "Interview preparation", "Skills development",
+        "Industry readiness", "Higher studies advice", "Research career",
+        "Industry vs academia", "Internship search", "Networking tips",
+        "Professional development", "Career planning", "Skill gap analysis",
+        "Job market trends", "Career pathways", "Professional portfolio"
+      ],
+      "responses": [
+        "Career preparation through projects: Document achievements, build portfolio, highlight technical skills, demonstrate problem-solving, and prepare project stories for interviews.",
+        "For career success: Build strong portfolio, network with professionals, develop soft skills, stay updated with trends, and seek mentorship."
+      ]
+    },
+
+    {
+      "tag": "stress_management",
+      "patterns": [
+        "Project stress", "Academic pressure", "Deadline anxiety",
+        "Burnout prevention", "Workload management", "Stress relief",
+        "Mental health", "Balance studies", "Coping strategies",
+        "Anxiety management", "Pressure handling", "Relaxation techniques",
+        "Time for self-care", "Overwhelmed feelings", "Stress symptoms",
+        "Academic burnout", "Project fatigue", "Motivation loss"
+      ],
+      "responses": [
+        "Managing project stress: Break tasks into manageable chunks, maintain regular schedule, take breaks, exercise, talk to peers, and remember it's a learning process.",
+        "Academic well-being: Prioritize tasks, set realistic goals, maintain work-life balance, seek support when needed, and celebrate small achievements."
+      ]
+    },
+
+    {
+      "tag": "technical_skills",
+      "patterns": [
+        "Skill development", "Technical learning", "Programming skills",
+        "New technology", "Skill gap", "Learning roadmap",
+        "Technical training", "Hands-on practice", "Skill improvement",
+        "Technology stack", "Required skills", "Skill assessment",
+        "Learning resources", "Practice projects", "Technical workshops",
+        "Skill certification", "Technical competencies", "Learning curve"
+      ],
+      "responses": [
+        "Technical skill development: 1) Identify required skills 2) Find learning resources 3) Practice with exercises 4) Build small projects 5) Seek feedback.",
+        "For skill building: Start with fundamentals, practice regularly, work on real problems, contribute to projects, and stay curious about new technologies."
+      ]
+    },
+
+    {
+      "tag": "feedback_request",
+      "patterns": [
+        "Need feedback", "Review my work", "Check my progress",
+        "Evaluate my work", "Assessment needed", "Quality check",
+        "Improvement suggestions", "Code review", "Report review",
+        "Presentation feedback", "Design review", "Methodology check",
+        "Results review", "Documentation check", "Project evaluation",
+        "Peer review", "Constructive criticism", "Quality assessment"
+      ],
+      "responses": [
+        "I'd be happy to review your work. Please share what you have, and I'll provide constructive feedback focusing on strengths and areas for improvement.",
+        "For effective feedback: Share specific sections, mention your concerns, and I'll help identify improvements while acknowledging what's working well."
+      ]
+    },
+
+    {
+      "tag": "meeting_prep",
+      "patterns": [
+        "Meeting preparation", "Agenda setting", "Progress report",
+        "Update presentation", "Meeting minutes", "Discussion points",
+        "Questions preparation", "Status update", "Milestone review",
+        "Problem discussion", "Decision making", "Action items",
+        "Follow-up tasks", "Meeting scheduling", "Preparation checklist",
+        "Presentation for meeting", "Discussion preparation", "Review meeting"
+      ],
+      "responses": [
+        "Meeting preparation: 1) Prepare agenda 2) Gather updates 3) Identify issues 4) Prepare questions 5) Document action items. ",
+        "For productive meetings: Send agenda in advance, prepare visual aids, document discussions, assign action items, and schedule follow-ups."
+      ]
+    },
+
+    {
+      "tag": "innovation_creativity",
+      "patterns": [
+        "Innovative ideas", "Creative thinking", "Originality in project",
+        "Novel solutions", "Creative approaches", "Innovation methods",
+        "Design thinking", "Brainstorming help", "Idea generation",
+        "Creative problem solving", "Innovation techniques", "Out of box thinking",
+        "Creative process", "Innovation framework", "Idea validation",
+        "Creative confidence", "Innovation mindset", "Creative collaboration"
+      ],
+      "responses": [
+        "Fostering innovation: Study existing solutions, identify pain points, brainstorm alternatives, prototype ideas, and test with users. ",
+        "For innovative projects: Encourage diverse perspectives, challenge assumptions, explore multiple solutions, learn from failures, and iterate based on feedback."
+      ]
+    },
+
+    {
+      "tag": "quality_assurance",
+      "patterns": [
+        "Quality standards", "Quality control", "Best practices",
+        "Professional standards", "Code quality", "Documentation quality",
+        "Testing quality", "Design quality", "Implementation quality",
+        "Quality metrics", "Quality improvement", "Quality checklist",
+        "Standards compliance", "Benchmarking", "Performance standards",
+        "Reliability standards", "Maintainability", "Scalability standards"
+      ],
+      "responses": [
+        "Quality assurance: Establish standards early, conduct regular reviews, use checklists, seek peer feedback, and continuously improve. ",
+        "For high-quality projects: Follow industry standards, document thoroughly, test comprehensively, review regularly, and prioritize maintainability."
+      ]
+    },
+
+    {
+      "tag": "knowledge_sharing",
+      "patterns": [
+        "Knowledge transfer", "Peer learning", "Teaching others",
+        "Mentoring juniors", "Team learning", "Knowledge documentation",
+        "Experience sharing", "Lessons learned", "Best practices sharing",
+        "Collaborative learning", "Study groups", "Workshop organization",
+        "Tutorial creation", "Knowledge repository", "Learning community",
+        "Peer support", "Knowledge management", "Educational resources"
+      ],
+      "responses": [
+        "Knowledge sharing benefits everyone: Document your learning, create tutorials, conduct workshops, mentor peers, and contribute to knowledge bases. ",
+        "Effective knowledge sharing: Create clear documentation, conduct sessions regularly, encourage questions, create learning resources, and foster collaborative environment."
+      ]
+    },
+
+    {
+      "tag": "project_completion",
+      "patterns": [
+        "Project completion", "Final submission", "Closure activities",
+        "Final documentation", "Submission checklist", "Project handover",
+        "Final review", "Completion report", "Lessons learned document",
+        "Project evaluation", "Success measurement", "Outcome assessment",
+        "Final presentation", "Project archive", "Completion ceremony",
+        "Acknowledgements", "Future work", "Project closure"
+      ],
+      "responses": [
+        "Project completion steps: 1) Final testing 2) Complete documentation 3) Prepare final report 4) Create presentation 5) Archive project 6) Reflect on learnings. ",
+        "For successful closure: Ensure all objectives met, document thoroughly, prepare for evaluation, archive properly, and plan knowledge transfer."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "keywords": {
+    "Artificial Intelligence": [
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "computer vision"
+    ],
+    "Blockchain": [
+      "blockchain",
+      "cryptography",
+      "distributed ledger",
+      "smart contract",
+      "voting system"
+    ],
+    "Internet of Things": [
+      "iot",
+      "internet of things",
+      "smart irrigation",
+      "edge computing",
+      "embedded systems"
+    ],
+    "Cybersecurity": [
+      "cybersecurity",
+      "network security",
+      "privacy",
+      "security",
+      "encryption"
+    ],
+    "Natural Language Processing": [
+      "nlp",
+      "natural language processing",
+      "sentiment analysis",
+      "text mining",
+      "linguistics",
+      "sinhala",
+      "tweets"
+    ]
+  },
+  "domains": [
+    "Artificial Intelligence",
+    "Blockchain",
+    "Internet of Things",
+    "Cybersecurity",
+    "Natural Language Processing"
+  ]
+}
