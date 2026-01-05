@@ -1,0 +1,6 @@
+Groups,performance_score,feedback_review,recommended_actions,sentiment_score,risk_factor,predicted_next_score,prediction_confidence,previous_score,trend,risk_status,recommended_action
+A,83.26,Overall assessment: Reliable delivery with effective collaboration.,Take ownership of additional responsibilities,0.65,0.12,83.26,0.1,,FIRST,LOW RISK,CONTINUE CURRENT APPROACH
+B,82.42,Weekly evaluation: Solid performance. Met all requirements with good quality.,Increase stakeholder communication with focus on quality standards,0.68,0.11,77.2300033569336,0.5,83.26,DECLINING,LOW RISK,CONTINUE CURRENT APPROACH
+C,69.07,Supervisor review: Requires additional support and guidance.,Performance improvement plan,0.5,0.67,79.5999984741211,0.7,82.42,DECLINING,HIGH RISK,IMMEDIATE INTERVENTION REQUIRED
+D,67.64,Supervisor review: Struggling to meet quality standards.,Daily check-ins with team lead with focus on quality standards,0.5,0.06,81.48999786376953,0.9,69.07,IMPROVING,LOW RISK,CONTINUE CURRENT APPROACH
+E,83.41,Overall assessment: Solid performance. Met all requirements with good quality.,Focus on skill development in specialized areas with focus on quality standards,0.62,0.07,80.0999984741211,0.9,67.64,IMPROVING,LOW RISK,CONTINUE CURRENT APPROACH
