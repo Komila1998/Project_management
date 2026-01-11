@@ -41,7 +41,7 @@ Results and insights are visualized through dashboards.
 
 ## Technologies & Tools Used
 
-##Frontend
+## Frontend
 React.js
 HTML, CSS, JavaScript
 Chart.js / Recharts for data visualization
