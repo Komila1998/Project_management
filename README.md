@@ -6,11 +6,11 @@ This project proposes an Adaptive Intelligence Framework as a web-based decision
 The framework aims to enhance team balance, topic feasibility, mentorship quality, and project success rates through explainable and data-driven recommendations.
 
 ## Key Objectives
-.Automatically form balanced student groups using machine learning based on academic performance, skills, interests, and personality traits.
-.Evaluate and refine student project topics using LLM-based semantic analysis.
-.Match students with appropriate supervisors based on topic similarity and expertise.
-.Ensure fair supervisor workload distribution by considering supervisor availability and capacity during the matching process.
-.Provide continuous mentorship support using an AI-powered chatbot. The chatbot is implemented as a domain-specific, intent-based NLP system designed for controlled academic guidance rather than a general-purpose conversational AI.
+Automatically form balanced student groups using machine learning based on academic performance, skills, interests, and personality traits.
+Evaluate and refine student project topics using LLM-based semantic analysis.
+Match students with appropriate supervisors based on topic similarity and expertise.
+Ensure fair supervisor workload distribution by considering supervisor availability and capacity during the matching process.
+Provide continuous mentorship support using an AI-powered chatbot. The chatbot is implemented as a domain-specific, intent-based NLP system designed for controlled academic guidance rather than a general-purpose conversational AI.
 Detect early project risks using sentiment analysis and time-series forecasting.
 Offer a centralized dashboard for academic decision support and monitoring.
 Ensure transparency and explainability in supervisor recommendations and academic guidance to support trust and academic decision-making.
@@ -32,43 +32,16 @@ Academic Institutions – Improved project completion rates and learning outcome
 
 ## System Architecture
 The system follows a modular web-based architecture integrating AI pipelines with a centralized database and interactive user interface.
-┌────────────────────────────┐
-│        User Interface       │
-│  (Student / Supervisor)    │
-└──────────────┬─────────────┘
-               │
-┌──────────────▼─────────────┐
-│     Backend REST API        │
-│ (Flask / FastAPI / Node)   │
-└──────────────┬─────────────┘
-               │
-┌──────────────▼─────────────┐
-│     Data Preprocessing     │
-│  (Cleaning, Encoding)     │
-└──────────────┬─────────────┘
-               │
-┌──────────────▼─────────────┐
-│   Feature Engineering     │
-│ (GPA, Scores, TF-IDF)     │
-└──────────────┬─────────────┘
-               │
-┌──────────────▼─────────────┐
-│  ML / AI Decision Layer   │
-│ (Clustering, NLP, LLMs)   │
-└──────────────┬─────────────┘
-               │
-┌──────────────▼─────────────┐
-│ Visualization Dashboard   │
-│  (Groups, Insights)       │
-└────────────────────────────┘
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/44acf012-97bf-4085-874b-63b94cfdbbbe" />
+
 
 ## High-Level Workflow
-Students register and create academic profiles.
-The system performs intelligent group formation using clustering algorithms.
-Students submit project topics for LLM-based evaluation and structured academic feedback.
-NLP-based semantic analysis matches project groups with suitable supervisors based on expertise and availability.
-A domain-specific, NLP-based chatbot provides continuous academic mentoring and procedural guidance.
-Project progress data is monitored to detect risks and performance issues.
+1. Students register and create academic profiles.
+2. The system performs intelligent group formation using clustering algorithms.
+3. Students submit project topics for LLM-based evaluation and structured academic feedback.
+4. NLP-based semantic analysis matches project groups with suitable supervisors based on expertise and availability.
+5. A domain-specific, NLP-based chatbot provides continuous academic mentoring and procedural guidance.
+6. Project progress data is monitored to detect risks and performance issues.
 Results, recommendations, and alerts are visualized through interactive dashboards.
 
 ## Technologies & Tools Used
@@ -76,7 +49,7 @@ Results, recommendations, and alerts are visualized through interactive dashboar
 ## Frontend
 React.js
 HTML, CSS, JavaScript
-Chart.js / Recharts for data visualization
+Chart.js 
 
 ## Backend
 Python (Flask / FastAPI)
@@ -102,3 +75,65 @@ Qualitative evaluation through academic feedback
 ## Database
 MongoDB / MySQL (based on deployment choice)
 Stores student profiles, project topics, supervisor metadata, and progress logs
+
+## Admin Dashboard Features (For Your Project)
+🔹 Group & Project Overview
+Overview of total students, groups formed, and supervisors assigned
+Group balance indicators (GPA distribution, skill diversity)
+Project topic approval and evaluation status
+🔹 Intelligent Group Formation Analytics
+Visualization of group-wise average GPA
+Skill and domain diversity per group
+Communication and leadership balance analysis
+🔹 Topic Evaluation & Recommendation Reports
+AI-based feasibility score for each project topic
+Strengths and weaknesses of proposed topics
+Suggested improvements and refined topic descriptions
+🔹 Supervisor Matching Dashboard
+Supervisor expertise vs student topic alignment
+Load balancing of supervisors
+🔹 Student Progress & Risk Monitoring
+Weekly progress submission tracking
+Risk alerts for inactive or low-performing groups
+Early warnings for project delays
+
+## Ethical AI & Fairness (For Your Project)
+🔹 Fair Group Formation
+GPA stratification ensures academic balance across groups
+No single group is overloaded with high or low GPA students
+🔹 Bias Mitigation
+Student identities anonymized during group formation
+Decisions based on skills, interests, and performance metrics only
+🔹 Explainable AI
+Clear explanation for:
+Why was a student placed in a specific group
+Why a topic was accepted, rejected, or improved
+Transparent rule-based and ML-based reasoning
+🔹 Data Privacy & Security (Conceptual)
+Secure handling of student academic records
+Role-based access control (Student / Supervisor / Admin)
+No exposure of sensitive data in dashboards
+
+## Sample Outputs (For Your Project)
+]🔹 Intelligent Group Formation
+Group ID assignment
+Group-wise average GPA
+Skill diversity summary per group
+🔹 Topic Evaluation Module
+Topic feasibility score (0–100)
+Recommendation category:
+Accept
+Improve
+Reject
+AI-generated topic refinement suggestions
+🔹 Supervisor Matching
+Supervisor match score
+Ranked list of suitable supervisors
+Final assignment recommendation
+🔹 Progress & Risk Prediction
+Group risk level:
+Low
+Medium
+High
+Delay probability estimate
+Recommended corrective actions
