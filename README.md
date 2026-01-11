@@ -1,7 +1,7 @@
 # Adaptive Intelligence Framework for Data-Driven Optimization of Collaborative Software Project Environments
 
 ## Project Overview
-Final-year undergraduate software projects often face critical challenges such as improper student group formation, poorly defined project topics, weak supervisor–student alignment, limited mentoring support, and lack of early risk detection. These issues commonly lead to unbalanced teams, project delays, repeated topic revisions, and reduced academic outcomes.
+Final-year undergraduate software projects often face critical challenges such as improper student group formation, poorly defined project topics, weak supervisor–student alignment, limited mentoring support, and a lack of early risk detection. These issues commonly lead to unbalanced teams, project delays, repeated topic revisions, and reduced academic outcomes.
 This project proposes an Adaptive Intelligence Framework as a web-based decision support system that integrates machine learning, natural language processing (NLP), and deep learning techniques to optimize collaborative software project environments. The system automates intelligent group formation, evaluates project topics using Large Language Models (LLMs), supports supervisor matching through semantic analysis, and monitors project progress using predictive analytics.
 The framework aims to enhance team balance, topic feasibility, mentorship quality, and project success rates through explainable and data-driven recommendations.
 
