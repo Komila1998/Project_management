@@ -30,8 +30,37 @@ Undergraduate Students – Balanced teams, clear project direction, and continuo
 Supervisors – Reduced workload and improved topic–student alignment.
 Academic Institutions – Improved project completion rates and learning outcomes.
 
-System Architecture
+## System Architecture
 The system follows a modular web-based architecture integrating AI pipelines with a centralized database and interactive user interface.
+┌────────────────────────────┐
+│        User Interface       │
+│  (Student / Supervisor)    │
+└──────────────┬─────────────┘
+               │
+┌──────────────▼─────────────┐
+│     Backend REST API        │
+│ (Flask / FastAPI / Node)   │
+└──────────────┬─────────────┘
+               │
+┌──────────────▼─────────────┐
+│     Data Preprocessing     │
+│  (Cleaning, Encoding)     │
+└──────────────┬─────────────┘
+               │
+┌──────────────▼─────────────┐
+│   Feature Engineering     │
+│ (GPA, Scores, TF-IDF)     │
+└──────────────┬─────────────┘
+               │
+┌──────────────▼─────────────┐
+│  ML / AI Decision Layer   │
+│ (Clustering, NLP, LLMs)   │
+└──────────────┬─────────────┘
+               │
+┌──────────────▼─────────────┐
+│ Visualization Dashboard   │
+│  (Groups, Insights)       │
+└────────────────────────────┘
 
 ## High-Level Workflow
 Students register and create academic profiles.
