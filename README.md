@@ -6,11 +6,11 @@ This project proposes an Adaptive Intelligence Framework as a web-based decision
 The framework aims to enhance team balance, topic feasibility, mentorship quality, and project success rates through explainable and data-driven recommendations.
 
 ## Key Objectives
-Automatically form balanced student groups using machine learning based on academic performance, skills, interests, and personality traits.
-Evaluate and refine student project topics using LLM-based semantic analysis.
-Match students with appropriate supervisors based on topic similarity and expertise.
-Ensure fair supervisor workload distribution by considering supervisor availability and capacity during the matching process.
-Provide continuous mentorship support using an AI-powered chatbot. The chatbot is implemented as a domain-specific, intent-based NLP system designed for controlled academic guidance rather than a general-purpose conversational AI.
+.Automatically form balanced student groups using machine learning based on academic performance, skills, interests, and personality traits.
+.Evaluate and refine student project topics using LLM-based semantic analysis.
+.Match students with appropriate supervisors based on topic similarity and expertise.
+.Ensure fair supervisor workload distribution by considering supervisor availability and capacity during the matching process.
+.Provide continuous mentorship support using an AI-powered chatbot. The chatbot is implemented as a domain-specific, intent-based NLP system designed for controlled academic guidance rather than a general-purpose conversational AI.
 Detect early project risks using sentiment analysis and time-series forecasting.
 Offer a centralized dashboard for academic decision support and monitoring.
 Ensure transparency and explainability in supervisor recommendations and academic guidance to support trust and academic decision-making.
