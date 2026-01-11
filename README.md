@@ -9,9 +9,12 @@ The framework aims to enhance team balance, topic feasibility, mentorship qualit
 Automatically form balanced student groups using machine learning based on academic performance, skills, interests, and personality traits.
 Evaluate and refine student project topics using LLM-based semantic analysis.
 Match students with appropriate supervisors based on topic similarity and expertise.
-Provide continuous mentorship support using an AI-powered chatbot.
+Ensure fair supervisor workload distribution by considering supervisor availability and capacity during the matching process.
+Provide continuous mentorship support using an AI-powered chatbot. The chatbot is implemented as a domain-specific, intent-based NLP system designed for controlled academic guidance rather than a general-purpose conversational AI.
 Detect early project risks using sentiment analysis and time-series forecasting.
 Offer a centralized dashboard for academic decision support and monitoring.
+Ensure transparency and explainability in supervisor recommendations and academic guidance to support trust and academic decision-making.
+
 
 ## System Modules
 |Module|Description|
@@ -33,11 +36,11 @@ The system follows a modular web-based architecture integrating AI pipelines wit
 ## High-Level Workflow
 Students register and create academic profiles.
 The system performs intelligent group formation using clustering algorithms.
-Students submit project topics for LLM-based evaluation and feedback.
-NLP models match groups with suitable supervisors.
-An AI chatbot provides continuous mentoring support.
-Progress data is monitored to detect risks and performance issues.
-Results and insights are visualized through dashboards.
+Students submit project topics for LLM-based evaluation and structured academic feedback.
+NLP-based semantic analysis matches project groups with suitable supervisors based on expertise and availability.
+A domain-specific, NLP-based chatbot provides continuous academic mentoring and procedural guidance.
+Project progress data is monitored to detect risks and performance issues.
+Results, recommendations, and alerts are visualized through interactive dashboards.
 
 ## Technologies & Tools Used
 
@@ -56,7 +59,9 @@ Scikit-learn
 Pandas, NumPy
 K-Means Clustering (Primary model for group formation)
 Gaussian Mixture Model (GMM) (Comparative model)
-TF-IDF Vectorization for text feature extraction
+TF-IDF Vectorization for semantic text representation
+Cosine similarity for supervisor–topic matching
+Rule-based NLP techniques for domain identification
 Large Language Models (LLMs) for topic evaluation
 LSTM Networks for progress and risk prediction
 
