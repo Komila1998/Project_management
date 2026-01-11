@@ -40,6 +40,7 @@ Progress data is monitored to detect risks and performance issues.
 Results and insights are visualized through dashboards.
 
 ## Technologies & Tools Used
+
 ##Frontend
 React.js
 HTML, CSS, JavaScript
